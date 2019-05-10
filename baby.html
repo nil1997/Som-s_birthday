@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Untitled</title>
+</head>
+
+ <link href='style.css' rel='stylesheet'>
+   <style type="text/css">
+  *{
+      box-sizing: border-box;
+      box-sizing:border-box;
+  }
+ 
+  body{
+    margin:0;
+    background:gray;
+    background-size:1380px 853px;
+  }
+  nav{
+      background: #594848;
+      width:100%;
+      overflow:auto;
+  }
+
+    ul{
+    margin: 3px;
+    padding: 0px;
+    list-style: none;
+}
+ul li{
+    float:left;
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    opacity: .5;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 3px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color: green;
+}
+ul li ul li{
+    display:none;
+
+}
+ul li:hover ul li{
+    display:block;
+}
+
+  .container{
+      max-width:1380px;
+      margin:auto;
+      background: gray;
+      overflow:auto;
+  }
+  .gallery{
+      margin:5px;
+      border:1px solid #ccc;
+      float:left;
+      width:420px;
+      background:;
+  }
+  .gallery img{
+
+  width:100%;
+  height:500px;
+  }
+
+   .desc{
+
+  padding:15px;
+  text-align:center;
+  font-weight: 20px;
+  font:arial;
+  font-size:23px;;
+  color:white;
+  }
+   @media screen and (max-width:580px){
+  	.container{
+  		width:320px;;
+  	}
+  	.gallery{
+  		width:320px;
+  	}
+  	nav{
+  		width:100%;
+  	}
+  	ul li{
+  		width:100%;
+  	}
+  }
+
+  </style>
+<nav>
+ <ul>
+    <li><a href="HOME.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+   
+                        <li><a href="indra.html">WITH INDRANIL</a></li>
+                       
+                        <li><a href="group.html">COLLEGE LIFE</a></li>
+                    
+    <li><a href="video.html">VIDEO</a></li>
+</ul>
+ </nav>
+    <div class="container">
+        <div class="gallery">
+        <img src="IMG-20170807-WA0033.jpg">
+        <div class="desc">Picture 1</div>
+        </div>
+        <div class="gallery">
+        <img src="IMG-20170807-WA0036.jpg">
+        <div class="desc">Picture 2</div>
+        </div>
+        <div class="gallery">
+        <img src="IMG-20170807-WA0037.jpg">
+        <div class="desc">Picture 3</div>
+        </div>
+        <div class="gallery">
+        <img src="IMG-20170807-WA0038.jpg">
+        <div class="desc">Picture 4</div>
+        </div>
+        <div class="gallery">
+        <img src="IMG-20170807-WA0027.jpg">
+        <div class="desc">Picture 5</div>
+        </div>
+        <div class="gallery">
+        <img src="IMG-20170807-WA0026.jpg">
+        <div class="desc">Picture 6</div>
+        </div>
+    </div>
+
+<body>
+
+</body>
+
+</html>
