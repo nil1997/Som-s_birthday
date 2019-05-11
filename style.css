@@ -35,24 +35,5 @@ ul li ul li{
 ul li:hover ul li{
     display:block;
 }
- @media screen and (max-width:580px){
-  	.container{
-  		width:320px;;
-  	}
-  	.gallery{
-  		width:320px;
-  	}
-  	nav{
-  		width:100%;
-  		display:block;
-  	}
-  	ul li{
-  		width:100%;
-  	}
-  	body{
-  		width:100%;
-  		background-size:400px 700px;
-  		background-align:bottom;
-  	}
  
-  }
+  
